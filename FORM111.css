@@ -1,0 +1,40 @@
+.container {
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 400px;
+}
+
+.form-control {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: rgb(43, 197, 40);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(46, 164, 44);
+}
+
+body {
+    background-image: url("Esto.png");
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+    background-position: 500px 20%;
+    border: 20px solid green; 
+    margin: 0;
+    
+    box-sizing: border-box; 
+}
+h1 {
+    color:white;
+}
+.tod{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+

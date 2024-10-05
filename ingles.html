@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inglés</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background: linear-gradient(to right, #2980b9, #6dd5fa, #ffffff);
+            color: #333;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 90%; 
+            overflow: hidden;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #2c3e50;
+            color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 3em;
+            letter-spacing: 2px;
+        }
+
+        .intro, .importance, .topics {
+            background: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .intro:hover, .importance:hover, .topics:hover {
+            transform: translateY(-5px);
+        }
+
+        .intro p, .importance p, .topics p {
+            margin-bottom: 15px;
+            font-size: 1.2em;
+            color: #333;
+        }
+
+        
+        .espanol {
+            color: #909497; 
+        }
+
+        .ingles {
+            color: #17202a; 
+        }
+
+        
+        h2 {
+            margin-bottom: 15px;
+            font-size: 2.5em;
+            border-bottom: 2px solid #17202a;
+            padding-bottom: 10px;
+            color: #17202a; 
+        }
+
+        h4 {
+            margin-bottom: 15px;
+            font-size: 2em;
+            border-bottom: 2px solid #7f8c8d; 
+            padding-bottom: 10px;
+            color: #7f8c8d; 
+        }
+
+        
+        ul {
+            list-style-type: square;
+            margin: 20px 0;
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        ul li a {
+            color: #bdc3c7; 
+            font-weight: bold;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        ul li a:hover {
+            color: #48c9b0; 
+        }
+
+        
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+
+        
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5em; 
+            }
+
+            .container {
+                width: 95%; 
+                padding: 10px;
+
+            .intro, .importance, .topics {
+                padding: 15px; 
+            }
+
+            .intro p, .importance p, .topics p {
+                font-size: 1em; 
+            }
+
+            h2 {
+                font-size: 2em; 
+            }
+
+            h4 {
+                font-size: 1.5em; 
+            }
+
+            ul li {
+                margin-bottom: 5px; 
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>English</h1>
+        </header>
+
+        <section class="intro">
+            <p>
+                <span class="ingles">English is much more than a language, it is a global communication tool that connects people from different cultures, countries and backgrounds. With over 1.5 million speakers worldwide, English is the lingua franca in business, science, technology, entertainment and diplomacy.</span>
+                <br>
+                <span class="espanol">El inglés es mucho más que un idioma, es una herramienta global de comunicación que conecta a personas de diferentes culturas, países y contextos. Con más de 1.5 mil millones de hablantes en todo el mundo, el inglés es la lengua franca en los negocios, la ciencia, la tecnología, el entretenimiento y la diplomacia.</span>
+            </p>
+            <p>
+                <span class="ingles">Learning English not only opens doors to new academic and professional opportunities, but also allows you to access a vast amount of global information and resources. Through this page, we will explore the richness of the language, its grammar, vocabulary, and the best strategies to master it in the modern world. Begin your journey to mastering English and broadening your horizons!</span>
+                <br>
+                <span class="espanol">Aprender inglés no solo abre puertas a nuevas oportunidades académicas y profesionales, sino que también permite acceder a una vasta cantidad de información y recursos globales. A través de esta página, exploraremos la riqueza del idioma, su gramática, vocabulario, y las mejores estrategias para dominarlo en el mundo moderno. ¡Comienza tu viaje para dominar el inglés y ampliar tus horizontes!</span>
+            </p>
+        </section>
+
+        <section class="importance">
+            <h2>Why is it important to learn English?</h2>
+            <h4>¿Por qué es tan importante aprender inglés?</h4>
+            <p>
+                <span class="ingles">English is crucial, as it is a global language and probably the most widely spoken language in the world. If we go to a country where Spanish is not spoken, English is the most viable option for communication. Therefore, it is important to master at least the basics.</span>
+                <br>
+                <span class="espanol">El inglés es crucial, ya que es un idioma global y probablemente el más hablado en todo el mundo. Si vamos a un país donde no se habla español, el inglés es la opción más viable para comunicarnos. Por eso, es importante dominar al menos lo básico.</span>
+            </p>
+
+            <p>
+                <span class="ingles">For students studying computer science, knowing English is essential, since programming uses this language. Without a minimum knowledge, learning to program can be a challenge.</span>
+                <br>
+                <span class="espanol">Para los estudiantes de bachillerato en computación, conocer el inglés es fundamental, ya que la programación utiliza este idioma. Sin un conocimiento mínimo, aprender a programar puede ser un desafío.</span>
+            </p>
+        </section>
+
+        <section class="topics">
+            <h2>Some of the topics seen this year</h2>
+            <h4>Algunos de los temas vistos este año</h4>
+            <p>
+                <span class="ingles">This year we have learned many things in English. Some of the topics we covered are:</span>
+                <br>
+                <span class="espanol">Este año hemos aprendido muchas cosas en inglés. Algunos de los temas que vimos son:</span>
+            </p>
+            <ul>
+                <li><a href="https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/present-simple">Present simple (Presente simple)</a></li>
+                <li><a href="https://www.merriam-webster.com/dictionary/declination">Declinations</a></li>
+                <li><a href="https://english4today.com/negative-of-the-simple-past/">Simple past Negative</a></li>
+                <li><a href="https://languagetool.org/insights/post/will-vs-going-to/">Will and Going to</a></li>
+                <li><a href="https://www.talkenglish.com/video/lessondetails.aspx?ALID=4382">Questions present</a></li>
+                <li><a href="https://www.grammar.cl/Past/To_Be.htm">To be past</a></li>
+                <li><a href="https://www.scribbr.com/category/verbs/">Verbs</a></li>
+                <li><a href="https://www.businessenglish.com/grammar/sequence-adverbs.html?lang=eng">Sequence adverbs</a></li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>

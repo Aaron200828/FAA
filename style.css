@@ -1,0 +1,30 @@
+/* Estilos personalizados */
+.cuerpo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f4f4f4;
+    
+}
+
+.top {
+    background-color: #0275d8;
+    color: white;
+    font-size: 2rem;
+}
+
+.piepag {
+    background-color: #343a40;
+    color: white;
+}
+
+.titu {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.lateral img {
+    width: 100%; /* Para que la imagen sea completamente responsiva */
+    text-decoration: none;
+}
+
+
+

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educación Física</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #555;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            opacity: 0;
+            animation: fadeIn 1.5s forwards;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #444;
+            color: white;
+        }
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 1200px;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            opacity: 0;
+            animation: fadeIn 1.5s forwards;
+            animation-delay: 0.5s;
+        }
+        h2 {
+            color: #555;
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 2em;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .article {
+            background-color: #fff;
+            margin: 15px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            flex-basis: 30%;
+            opacity: 0;
+            transform: translateY(20px);
+            animation: slideIn 0.5s forwards;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .article:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+        }
+        @media (max-width: 768px) {
+            .article {
+                flex-basis: 100%;
+            }
+        }
+        .subtitle {
+            background-color: #777;
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 15px;
+            color: white;
+            text-align: center;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+        @keyframes slideIn {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .article:nth-child(1) {
+            animation-delay: 0.2s;
+        }
+        .article:nth-child(2) {
+            animation-delay: 0.4s;
+        }
+        .article:nth-child(3) {
+            animation-delay: 0.6s;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>EDUCACION FISICA</h1>
+    <img src="pesomuertodavid.jpeg" alt="Image" height="250" width="350">
+    <p>El arte de cuidar y mejorar tu cuerpo y mente a través del ejercicio</p>
+</header>
+
+<nav>
+    <a href="#Historia y pasos">Historia y pasos</a>
+    <a href="#Tecnica">Tipos de Ejercicio</a>
+    <a href="#Beneficios">Beneficios</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<section id="Historia y pasos">
+    <h2>Levantamientos Olímpicos</h2>
+    <div class="content">
+        <div class="article">
+            <div class="subtitle">Historia de los Levantamientos Olímpicos</div>
+            <p>Los levantamientos olímpicos, como el arranque y el envión, han sido parte de los Juegos Olímpicos modernos desde 1896. Se originaron en las antiguas competiciones de fuerza en Grecia.</p>
+        </div>
+        <div class="article">
+            <div class="subtitle">Arranque (Snatch)</div>
+            <p>El arranque es un movimiento en el que el atleta levanta la barra del suelo por encima de la cabeza en un solo movimiento, usando potencia, equilibrio y velocidad.</p>
+        </div>
+        <div class="article">
+            <div class="subtitle">Envión (Clean and Jerk)</div>
+            <p>El envión consta de dos fases: la cargada (clean), donde se levanta la barra hasta los hombros, y el envión (jerk), donde se empuja la barra por encima de la cabeza con la ayuda de las piernas.</p>
+        </div>
+    </div>
+</section>
+
+<section id="Tecnica">
+    <h2>Técnica de levantamientos</h2>
+    <div class="content">
+        <div class="article">
+            <div class="subtitle">Técnica y Ejecución del Arranque</div>
+            <p>La técnica del arranque requiere un agarre amplio, una aceleración explosiva desde el suelo, y una rápida transición debajo de la barra, terminando en una postura estable.</p>
+        </div>
+        <div class="article">
+            <div class="subtitle">Técnica y Ejecución del Envión</div>
+            <p>La clave del envión es una primera fase eficiente al levantar la barra hasta los hombros, seguido de un impulso rápido y una extensión controlada de los brazos para llevar la barra por encima de la cabeza.</p>
+        </div>
+        <div class="article">
+            <div class="subtitle">Musculatura Implicada en los Levantamientos Olímpicos</div>
+            <p>Los levantamientos olímpicos involucran una gran cantidad de músculos, incluidos los cuádriceps, isquiotibiales, glúteos, dorsales y los músculos del core, que son esenciales para la estabilidad y la potencia.</p>
+        </div>
+    </div>
+</section>
+
+<section id="Beneficios">
+    <h2>Beneficios</h2>
+    <div class="content">
+        <div class="article">
+            <div class="subtitle">Beneficios para el Rendimiento Deportivo</div>
+            <p>Estos levantamientos mejoran la potencia explosiva, la velocidad y la coordinación, siendo fundamentales para atletas en deportes que requieren movimientos rápidos y fuertes, como el fútbol y el atletismo.</p>
+        </div>
+        <div class="article">
+            <div class="subtitle">Errores Comunes en los Levantamientos Olímpicos</div>
+            <p>Entre los errores más comunes están el despegue prematuro del suelo, una mala postura en la fase de recuperación, y el no mantener el core estabilizado al levantar la barra por encima de la cabeza.</p>
+        </div>
+        <div class="article">
+            <div class="subtitle">Competencias y Categorías de Peso</div>
+            <p>En las competiciones de halterofilia, los atletas compiten en diferentes categorías de peso corporal, donde su desempeño se mide sumando los mejores levantamientos de arranque y envión.</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>Contacto: info@educacionfisica.com</p>
+</footer>
+
+</body>
+</html>
